@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043A015A25E7FCB40007D752 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A015925E7FCB40007D752 /* MovieViewController.swift */; };
+		043A020525ED8E660007D752 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A020425ED8E660007D752 /* Movie.swift */; };
+		043A021025ED98F90007D752 /* CinemaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A020F25ED98F90007D752 /* CinemaTableViewCell.swift */; };
+		043A021425FA033B0007D752 /* ChangeMovieTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043A021325FA033A0007D752 /* ChangeMovieTimeViewController.swift */; };
 		0456ADCE25DF57DE008F5FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456ADCD25DF57DE008F5FEE /* AppDelegate.swift */; };
 		0456ADD025DF57DE008F5FEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456ADCF25DF57DE008F5FEE /* SceneDelegate.swift */; };
 		0456ADD225DF57DE008F5FEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0456ADD125DF57DE008F5FEE /* ViewController.swift */; };
 		0456ADD525DF57DE008F5FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0456ADD325DF57DE008F5FEE /* Main.storyboard */; };
 		0456ADD725DF57E1008F5FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0456ADD625DF57E1008F5FEE /* Assets.xcassets */; };
 		0456ADDA25DF57E1008F5FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0456ADD825DF57E1008F5FEE /* LaunchScreen.storyboard */; };
+		04DD173126026D5900FA88E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04DD173026026D5900FA88E4 /* GoogleService-Info.plist */; };
+		9E63A8384C410322953195AF /* Pods_TastURLSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE77290F2C379B767A35A5B /* Pods_TastURLSession.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043A014B25E7F4030007D752 /* TastURLSession-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TastURLSession-Bridging-Header.h"; sourceTree = "<group>"; };
+		043A015925E7FCB40007D752 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		043A020425ED8E660007D752 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		043A020F25ED98F90007D752 /* CinemaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaTableViewCell.swift; sourceTree = "<group>"; };
+		043A021325FA033A0007D752 /* ChangeMovieTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMovieTimeViewController.swift; sourceTree = "<group>"; };
 		0456ADCA25DF57DE008F5FEE /* TastURLSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TastURLSession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0456ADCD25DF57DE008F5FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0456ADCF25DF57DE008F5FEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,10 @@
 		0456ADD625DF57E1008F5FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0456ADD925DF57E1008F5FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0456ADDB25DF57E1008F5FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DD173026026D5900FA88E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1BE77290F2C379B767A35A5B /* Pods_TastURLSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TastURLSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A2C4F1CB4612B4EE7263589 /* Pods-TastURLSession.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TastURLSession.debug.xcconfig"; path = "Target Support Files/Pods-TastURLSession/Pods-TastURLSession.debug.xcconfig"; sourceTree = "<group>"; };
+		69C06778377C15A22560ED28 /* Pods-TastURLSession.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TastURLSession.release.xcconfig"; path = "Target Support Files/Pods-TastURLSession/Pods-TastURLSession.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E63A8384C410322953195AF /* Pods_TastURLSession.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +56,12 @@
 		0456ADC125DF57DE008F5FEE = {
 			isa = PBXGroup;
 			children = (
+				043A021325FA033A0007D752 /* ChangeMovieTimeViewController.swift */,
 				0456ADCC25DF57DE008F5FEE /* TastURLSession */,
 				0456ADCB25DF57DE008F5FEE /* Products */,
+				043A014B25E7F4030007D752 /* TastURLSession-Bridging-Header.h */,
+				826E352B50727FC67889A6E3 /* Pods */,
+				434C8CF0603A9E5AA60CAFFB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +80,32 @@
 				0456ADCF25DF57DE008F5FEE /* SceneDelegate.swift */,
 				0456ADD125DF57DE008F5FEE /* ViewController.swift */,
 				0456ADD325DF57DE008F5FEE /* Main.storyboard */,
+				043A020F25ED98F90007D752 /* CinemaTableViewCell.swift */,
+				043A020425ED8E660007D752 /* Movie.swift */,
+				043A015925E7FCB40007D752 /* MovieViewController.swift */,
 				0456ADD625DF57E1008F5FEE /* Assets.xcassets */,
 				0456ADD825DF57E1008F5FEE /* LaunchScreen.storyboard */,
 				0456ADDB25DF57E1008F5FEE /* Info.plist */,
+				04DD173026026D5900FA88E4 /* GoogleService-Info.plist */,
 			);
 			path = TastURLSession;
+			sourceTree = "<group>";
+		};
+		434C8CF0603A9E5AA60CAFFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BE77290F2C379B767A35A5B /* Pods_TastURLSession.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		826E352B50727FC67889A6E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A2C4F1CB4612B4EE7263589 /* Pods-TastURLSession.debug.xcconfig */,
+				69C06778377C15A22560ED28 /* Pods-TastURLSession.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0456ADDE25DF57E1008F5FEE /* Build configuration list for PBXNativeTarget "TastURLSession" */;
 			buildPhases = (
+				8A628ABE85D8BD7728CBBF9A /* [CP] Check Pods Manifest.lock */,
 				0456ADC625DF57DE008F5FEE /* Sources */,
 				0456ADC725DF57DE008F5FEE /* Frameworks */,
 				0456ADC825DF57DE008F5FEE /* Resources */,
+				68C80CDFCD351BCFE833421D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -98,6 +141,7 @@
 				TargetAttributes = {
 					0456ADC925DF57DE008F5FEE = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -125,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0456ADDA25DF57E1008F5FEE /* LaunchScreen.storyboard in Resources */,
+				04DD173126026D5900FA88E4 /* GoogleService-Info.plist in Resources */,
 				0456ADD725DF57E1008F5FEE /* Assets.xcassets in Resources */,
 				0456ADD525DF57DE008F5FEE /* Main.storyboard in Resources */,
 			);
@@ -132,14 +177,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		68C80CDFCD351BCFE833421D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TastURLSession/Pods-TastURLSession-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TastURLSession/Pods-TastURLSession-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TastURLSession/Pods-TastURLSession-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A628ABE85D8BD7728CBBF9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TastURLSession-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0456ADC625DF57DE008F5FEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043A015A25E7FCB40007D752 /* MovieViewController.swift in Sources */,
 				0456ADD225DF57DE008F5FEE /* ViewController.swift in Sources */,
+				043A021025ED98F90007D752 /* CinemaTableViewCell.swift in Sources */,
 				0456ADCE25DF57DE008F5FEE /* AppDelegate.swift in Sources */,
 				0456ADD025DF57DE008F5FEE /* SceneDelegate.swift in Sources */,
+				043A021425FA033B0007D752 /* ChangeMovieTimeViewController.swift in Sources */,
+				043A020525ED8E660007D752 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +374,11 @@
 		};
 		0456ADDF25DF57E1008F5FEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2C4F1CB4612B4EE7263589 /* Pods-TastURLSession.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UFM9GT7PG4;
 				INFOPLIST_FILE = TastURLSession/Info.plist;
@@ -295,6 +388,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.abel.TastURLSession;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TastURLSession-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,9 +397,11 @@
 		};
 		0456ADE025DF57E1008F5FEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C06778377C15A22560ED28 /* Pods-TastURLSession.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UFM9GT7PG4;
 				INFOPLIST_FILE = TastURLSession/Info.plist;
@@ -314,6 +411,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.abel.TastURLSession;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TastURLSession-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>820969479194-tbvn0p8aaoe9emvb3eii9ggf3dmamvml.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.820969479194-tbvn0p8aaoe9emvb3eii9ggf3dmamvml</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDCRuqCyo65Vwhy1bzf8ppkwILXslP0uyo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>820969479194</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.abel.TastURLSession</string>
+	<key>PROJECT_ID</key>
+	<string>fir-ios-movie</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-ios-movie.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:820969479194:ios:a9451a778ac3d6e2db45a3</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-ios-movie-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
